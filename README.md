@@ -1,6 +1,6 @@
-# ESP32-CYD: Dynamic GIF Player
+# ESP32 CYD: Dynamic GIF Player
 
-This project enables dynamic GIF playback from the microSD reader of the ESP32-CYD, with additional control features via HTTP requests or Google Home (via Arduino IoT)
+This project enables dynamic GIF playback from the microSD reader of the ESP32 CYD (Cheap Yellow Display), with additional control features via HTTP requests or Google Home (via Arduino IoT)
 
 ## Demo
 
@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/7edc9192-5ec8-405c-b7cc-d6bfda62c60c
 
 ## How It Works
 
-1. **Hardware Setup**:
+1. **Setup**:
    - ESP32 CYD (Cheap Yellow Display)
    - MicroSD card module (SD_CS_PIN is set to `5`)
    - Arduino IoT account + Google Home
@@ -33,8 +33,9 @@ https://github.com/user-attachments/assets/7edc9192-5ec8-405c-b7cc-d6bfda62c60c
 3. **Adding GIFs**:
    - Place `.gif` files on the microSD card. Ensure file names match the predefined list in the hardcoded code (e.g., `/1.gif`, `/2.gif`, `/3.gif`, etc.). 
    - The GIFs should be 320x240 px and use a max 64-color palette. Use an online converter like [ezgif.com](https://ezgif.com/). 
-   - **Test GIFs Available**: A folder with test GIFs is included in the GitHub repository. Copy the files (without folder) in your microSD card and insert it into the ESP32. 
+   - **Test GIFs Available**: A folder with test GIFs is included in this repository. Copy the files (without folder) in your microSD card and insert it into the ESP32. 
 
 4. **Important**:
    - Before flashing the ESP32, ensure that only `.ino` files are present in the Arduino IDE.
-   - If you experience issues getting the ESP32 to work, try installing the **ESP32 CYD libraries** provided by RandomNerdTutorials.
+   - If you experience issues getting the ESP32 to work, try installing the **ESP32 CYD files** provided by [RandomNerdTutorials](https://randomnerdtutorials.com/cheap-yellow-display-esp32-2432s028r/)
+  
