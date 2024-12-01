@@ -3,10 +3,7 @@
 This project enables dynamic GIF playback from the microSD reader of the ESP32-CYD, with additional control features via HTTP requests or Google Home (via Arduino IoT)
 
 ## Demo
-<video width="640" controls>
-  <source src="https://github.com/vinc-ee/ESP32-GIFPlayer/raw/refs/heads/main/preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="https://i.ibb.co/JstZcz9/preview-ezgif-com-video-to-webp-converter.webp" width="640" alt="ESP32-CYD GIF Demo">
 
 ## Features
 
